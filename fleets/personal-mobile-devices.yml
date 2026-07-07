@@ -4,7 +4,7 @@
 #
 # Use this fleet manifest to configure controls, software,
 # and settings that apply only to computing devices (hosts)
-# in this particular fleet.
+# in this particular fleet. Testing changes...
 #
 # > Note: By convention, the "📱🔐 Personal mobile devices"
 # > fleet is where employee-owned iPhone and Android phones
