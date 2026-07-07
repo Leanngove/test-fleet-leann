@@ -76,14 +76,13 @@ software:
     ###########################################################
     # iOS apps
     ###########################################################
-    # …
-    # - app_store_id: "618783545" # Slack
-    #   display_name: "Slack"
-    #   self_service: true
-    #   setup_experience: true
-    #   platform: ios
-    #   categories:
-    #     - "Communication"
+     - app_store_id: "618783545" # Slack
+       display_name: "Slack"
+       self_service: true
+       setup_experience: true
+       platform: ios
+       categories:
+         - "Communication"
 
     ###########################################################
     # iPadOS apps
