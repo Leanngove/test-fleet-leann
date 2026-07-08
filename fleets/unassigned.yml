@@ -1,67 +1,11 @@
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-#
-# unassigned.yml
-#
-#
-# To see all supported options, check out:
-#   • https://fleetdm.com/docs/configuration/yaml-files
-#
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-name: "Unassigned hosts"
+name: Unassigned
 controls:
-  setup_experience:
-    ###########################################################
-    # Uncomment to use single-sign on (SSO) to authenticate
-    # end users enrolling their personal device.
-    #
-    # Read more:
-    #   • https://fleetdm.com/docs/configuration/yaml-files#end-user-authentication
-    #   • https://fleetdm.com/guides/setup-experience#end-user-authentication
-    ###########################################################
-    #  enable_end_user_authentication: true
-
-  ###########################################################
-  # Presets, restrictions, and configs
-  #
-  # > Since the mobile devices in this fleet are personal
-  # > devices owned by employees, it can be appropriate to
-  # > cherry-pick only a very limited set of restrictions
-  # > and presets to maximize privacy and employee freedom.
-  #
-  # For more, see:
-  #   • https://fleetdm.com/docs/configuration/yaml-files#apple-settings-and-windows-settings
-  #   • https://fleetdm.com/docs/configuration/yaml-files#android-settings
-  ###########################################################
   apple_settings:
     configuration_profiles:
-      # … e.g.
-      # - path: ../lib/ios/declaration-profiles/Passcode settings.json
-      # - path: ../lib/ios/configuration-profiles/self-service.mobileconfig
   android_settings:
     configuration_profiles:
     certificates:
-
-  ###########################################################
-  # Managed OS updates
-  #
-  # To enable and enforce managed OS updates on iOS/iPadOS,
-  # uncomment `ios_updates` and `ipados_updates`.
-  #
-  # See also:
-  #   • https://fleetdm.com/docs/configuration/yaml-files#ios-updates
-  #   • https://fleetdm.com/docs/configuration/yaml-files#ipados-updates
-  #   • https://fleetdm.com/guides/enforce-os-updates#apple-macos-ios-and-ipados-end-user-experience
-  ###########################################################
-  # ios_updates:
-  #   deadline: "2030-04-01"
-  #   minimum_version: "18.5"
-  # ipados_updates:
-  #   deadline: "2030-04-01"
-  #   minimum_version: "18.5"
-
-###########################################################
-# Apps to make available from the Apple App Store or Google Play
-###########################################################
+policies:
 software:
   app_store_apps:
     ###########################################################
@@ -107,26 +51,3 @@ software:
       categories:
         - "Productivity"
         - "Business"
-
-    ###########################################################
-    # iPadOS apps
-    ###########################################################
-    # …
-    # - app_store_id: "618783545" # Slack
-    #   display_name: "Slack"
-    #   self_service: true
-    #   setup_experience: true
-    #   platform: ipados
-    #   categories:
-    #     - "Productivity"
-    #     - "Communication"
-
-    ###########################################################
-    # Android apps
-    ###########################################################
-    # …
-    # - app_store_id: "com.Slack" # Slack
-    #   platform: android
-    #   display_name: "Slack"
-    #   self_service: true
-    #   setup_experience: true
