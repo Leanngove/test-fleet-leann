@@ -61,7 +61,7 @@ controls:
   #   • https://fleetdm.com/docs/configuration/yaml-files#ipados-updates
   #   • https://fleetdm.com/guides/enforce-os-updates#apple-macos-ios-and-ipados-end-user-experience
   ###########################################################
-    ios_updates:
+  ios_updates:
      deadline: "2030-04-01"
      minimum_version: "18.5"
   # ipados_updates:
