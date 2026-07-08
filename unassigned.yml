@@ -7,7 +7,7 @@
 #   • https://fleetdm.com/docs/configuration/yaml-files
 # test
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-name: Unassigned
+name: `Unassigned`
 controls:
   setup_experience:
     ###########################################################
