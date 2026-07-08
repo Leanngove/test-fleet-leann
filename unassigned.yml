@@ -5,7 +5,7 @@
 #
 # To see all supported options, check out:
 #   • https://fleetdm.com/docs/configuration/yaml-files
-#
+# test
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 name: "Unassigned"
 controls:
