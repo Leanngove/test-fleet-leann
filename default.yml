@@ -136,3 +136,8 @@ controls:
 ###########################################################
 labels:
   - paths: ./labels/*.yml
+
+software:
+    packages:
+    - url: https://example.com/some-package.deb
+      self_service: true
