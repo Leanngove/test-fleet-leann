@@ -27,7 +27,7 @@ controls:
     #   • https://fleetdm.com/docs/configuration/yaml-files#end-user-authentication
     #   • https://fleetdm.com/guides/setup-experience#end-user-authentication
     ###########################################################
-    # enable_end_user_authentication: true
+      enable_end_user_authentication: true
 
   ###########################################################
   # Presets, restrictions, and configs
@@ -61,9 +61,9 @@ controls:
   #   • https://fleetdm.com/docs/configuration/yaml-files#ipados-updates
   #   • https://fleetdm.com/guides/enforce-os-updates#apple-macos-ios-and-ipados-end-user-experience
   ###########################################################
-  # ios_updates:
-  #   deadline: "2030-04-01"
-  #   minimum_version: "18.5"
+    ios_updates:
+     deadline: "2030-04-01"
+     minimum_version: "18.5"
   # ipados_updates:
   #   deadline: "2030-04-01"
   #   minimum_version: "18.5"
