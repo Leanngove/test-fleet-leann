@@ -76,54 +76,46 @@ software:
     ###########################################################
     # iOS apps
     ###########################################################
-###########################################################
-# Apps to make available from the Apple App Store or Google Play
-###########################################################
-app_store_apps:
-  ###########################################################
-  # iOS apps
-  ###########################################################
-  - app_store_id: "618783545" # Slack
-    display_name: "Slack"
-    self_service: true
-    setup_experience: true
-    platform: ios
-    categories:
-      - "Communication"
+    - app_store_id: "618783545" # Slack
+      display_name: "Slack"
+      self_service: true
+      setup_experience: true
+      platform: ios
+      categories:
+        - "Communication"
 
-  - app_store_id: "546505307" # Zoom - Zoom Cloud Meetings
-    display_name: "Zoom"
-    self_service: true
-    setup_experience: true
-    platform: ios
-    categories:
-      - "Communication"
+    - app_store_id: "546505307" # Zoom - Zoom Cloud Meetings
+      display_name: "Zoom"
+      self_service: true
+      setup_experience: true
+      platform: ios
+      categories:
+        - "Communication"
 
-  - app_store_id: "1113153706" # Microsoft Teams
-    display_name: "Microsoft Teams"
-    self_service: true
-    setup_experience: true
-    platform: ios
-    categories:
-      - "Communication"
+    - app_store_id: "1113153706" # Microsoft Teams
+      display_name: "Microsoft Teams"
+      self_service: true
+      setup_experience: true
+      platform: ios
+      categories:
+        - "Communication"
 
-  - app_store_id: "535886823" # Google Chrome
-    display_name: "Google Chrome"
-    self_service: true
-    setup_experience: true
-    platform: ios
-    categories:
-      - "Productivity"
+    - app_store_id: "535886823" # Google Chrome
+      display_name: "Google Chrome"
+      self_service: true
+      setup_experience: true
+      platform: ios
+      categories:
+        - "Productivity"
 
-  - app_store_id: "1511601750" # 1Password 8
-    display_name: "1Password"
-    self_service: true
-    setup_experience: true
-    platform: ios
-    categories:
-      - "Productivity"
-      - "Business"
-
+    - app_store_id: "1511601750" # 1Password 8
+      display_name: "1Password"
+      self_service: true
+      setup_experience: true
+      platform: ios
+      categories:
+        - "Productivity"
+        - "Business"
 
     ###########################################################
     # iPadOS apps
