@@ -136,8 +136,3 @@ controls:
 ###########################################################
 labels:
   - paths: ./labels/*.yml
-
-software:
-  packages:
-  app_store_apps:
-  fleet_maintained_apps:
